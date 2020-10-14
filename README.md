@@ -1,10 +1,10 @@
 # Irregular Terrain Model (Longley-Rice)
 
-The ITS Irregular Terrain Model (ITM) predicts long-distance terrestrial radio wave propagation for frequencies between 20 MHz and 20 GHz based on electromagnetic theory and empirical models developed by Anita Longley & Phil Rice.  Specifically, ITM predicts the attenuation of a radio signal as a function of distance based on transmitter and receiver heights, terrain features, climate and meteorological conditions, and variability parameters.
+This code repository archives the FORTRAN and C++ ITS Irregular Terrain Model (ITM) version 1.2.2. ITM predicts terrestrial radiowave propagation for frequencies between 20 MHz and 20 GHz based on electromagnetic theory and empirical models developed by Anita Longley and Phil Rice. Specifically, ITM predicts attenuation of a radio signal for paths greater than 1 km as a function of distance, terminal heights, meteorological conditions, terrain effects, and the variability of the signal in time and in space. ITM predictions also include free space loss, diffraction, and troposcatter.
 
 ## History of Software Implementations
 
-The Fortran and C++ implementations of ITM are both version 1.2.2 and are maintained here for historical purposes.  A new C++ implementation of ITM has been established [here](https://github.com/NTIA/itm).  This new C++ implementation, initially designated version 1.3, is functionally identical to the old 1.2.2 software, except for updated error and warning handling.  Most importantly, the new C++ code base will be where all future updates and improvements to ITM will be applied and versioned.
+The FORTRAN and C++ implementations of ITM are both version 1.2.2 and are maintained here for historical purposes.  A new C++ implementation of ITM has been established [here](https://github.com/NTIA/itm).  This new C++ implementation, initially designated version 1.3, is functionally identical to the archived v1.2.2 software.  The new C++ code base is where all future updates and improvements to ITM will be applied and versioned.
 
 ## Releases
 
