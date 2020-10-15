@@ -1,6 +1,6 @@
 # Irregular Terrain Model (Longley-Rice)
 
-This code repository archives the FORTRAN and C++ ITS Irregular Terrain Model (ITM) version 1.2.2. ITM predicts terrestrial radiowave propagation for frequencies between 20 MHz and 20 GHz based on electromagnetic theory and empirical models developed by Anita Longley and Phil Rice. Specifically, ITM predicts attenuation of a radio signal for paths greater than 1 km as a function of distance, terminal heights, meteorological conditions, terrain effects, and the variability of the signal in time and in space. ITM predictions also include free space loss, diffraction, and troposcatter.
+This code repository archives the FORTRAN and C++ ITS Irregular Terrain Model (ITM) version 1.2.2. ITM predicts terrestrial radiowave propagation for frequencies between 20 MHz and 20 GHz based on electromagnetic theory and empirical models developed by Anita Longley and Phil Rice. Propagation mechanisms considered include free space loss, diffraction, and troposcatter. Specifically, ITM predicts attenuation as a function of distance (greater than 1 km), terminal heights, meteorological conditions, terrain effects, and the variability of the signal in time and in space.
 
 ## History of Software Implementations
 
