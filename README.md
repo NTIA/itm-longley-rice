@@ -1,28 +1,14 @@
-# ITS Irregular Terrain Model (Longley-Rice)
+# Irregular Terrain Model (Longley-Rice)
 
-The ITS model of radio propagation for frequencies between 20 MHz and 20 GHz (the Longley-Rice model) (named for Anita Longley & Phil Rice, 1968) is a general purpose model that can be applied to a large variety of engineering problems. The model, which is based on electromagnetic theory and on statistical analyses of both terrain features and radio measurements, predicts the median attenuation of a radio signal as a function of distance and the variability of the signal in time and in space.
+This code repository archives the FORTRAN and C++ ITS Irregular Terrain Model (ITM) version 1.2.2. ITM predicts terrestrial radiowave propagation for frequencies between 20 MHz and 20 GHz based on electromagnetic theory and empirical models developed by Anita Longley and Phil Rice. Propagation mechanisms considered include free space loss, diffraction, and troposcatter. Specifically, ITM predicts attenuation as a function of distance (greater than 1 km), terminal heights, meteorological conditions, terrain effects, and the variability of the signal in time and in space.
 
-**Note**: This code base is the historical source that is available [here](https://www.its.bldrdoc.gov/resources/radio-propagation-software/itm/itm.aspx), and was migrated here for archival purposes.  These code bases correspond to ITM Version 1.2.2.  A new code base has been established [here](https://github.com/NTIA/itm).  This new code base was initially established as ITM Version 1.2.3, which is functionally identical to Version 1.2.2, with the only difference being updated error and warning handling.  While this code will continue to be supported, all future updates to ITM will only be applied to [the code base](https://github.com/NTIA/itm).
+## History of Software Implementations
+
+The FORTRAN and C++ implementations of ITM are both version 1.2.2 and are maintained here for historical purposes.  A new C++ implementation of ITM has been established [here](https://github.com/NTIA/itm).  This new C++ implementation, initially designated version 1.3, is functionally identical to the archived v1.2.2 software.  The new C++ code base is where all future updates and improvements to ITM will be applied and versioned.
 
 ## Releases
 
-A list of all available software releases can be viewed [here](https://github.com/NTIA/itm-longley-rice/releases).
-
-### Fortran Source ###
-
-* itm_man.txt - A manual for ITM. A straight ASCII file intended to aid the programmer in preparing a main program that involves the ITM.
-* uarea.exe - An executable file for UAREA. Runs on a PC under DOS.
-* uarea_man.txt - A manual for UAREA. A straight ASCII file.
-* qkpflman.txt - A manual for QKPFL. A straight ASCII file.
-* qkpfl.exe - An executable file for QKPFL. Runs on a PC under DOS.
-* qkpfl32.exe- An executable file for QKPFL. Runs on a PC under DOS (in 32-bit mode).
-    * You will need to put salflibc.dll into your C:\WINDOWS\SYSTEM directory for it to work.
-* qkpflbat.txt, qkpfldat.txt, and qkpflanx.txt - A sample showing how to run QKPFL on a PC-a batch file which runs the program using QKPFL.DAT as input and writing output to QKPFL.ANS. When run, the latter may be compared with QKPFL.ANX. Files should be renamed to QKPFL.BAT, QKPFL.DAT, and QKPFL.ANX. The .txt suffix was used to make it possible to easily view the files before running them.
-
-### C++ Source ###
-
-* ITMsetup.exe - An executable file for ITM (C++ version) using the GLOBE terrain database (You must download this separately).
-* To see more information about GLOBE, see our [GLOBE extraction routines](https://www.its.bldrdoc.gov/resources/radio-propagation-software/globe/globe-10-elevation-extraction-subroutines.aspx).
+A list and short description of all files part of the software release can be viewed [here](https://github.com/NTIA/itm-longley-rice/releases).
 
 ## References
 
