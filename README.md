@@ -20,4 +20,4 @@ A list and short description of all files part of the software release can be vi
 
 ## Contact
 
-For technical questions about ITM, contact Paul McKenna, (303) 497-3474, pmckenna@ntia.gov.
+For technical questions about ITM, contact Paul McKenna, pmckenna@ntia.gov.
